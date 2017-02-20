@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57814041E5A9C7C00E187EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57814031E5A9C7C00E187EF /* AppDelegate.swift */; };
+		D57814061E5A9C7C00E187EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57814051E5A9C7C00E187EF /* ViewController.swift */; };
+		D57814091E5A9C7C00E187EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57814071E5A9C7C00E187EF /* Main.storyboard */; };
+		D578140B1E5A9C7C00E187EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D578140A1E5A9C7C00E187EF /* Assets.xcassets */; };
+		D578140E1E5A9C7C00E187EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578140C1E5A9C7C00E187EF /* LaunchScreen.storyboard */; };
+		D57814191E5A9C7C00E187EF /* Gym_AddictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57814181E5A9C7C00E187EF /* Gym_AddictTests.swift */; };
+		D57814241E5A9C7C00E187EF /* Gym_AddictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57814231E5A9C7C00E187EF /* Gym_AddictUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D57814151E5A9C7C00E187EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57813F81E5A9C7B00E187EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57813FF1E5A9C7C00E187EF;
+			remoteInfo = "Gym Addict";
+		};
+		D57814201E5A9C7C00E187EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57813F81E5A9C7B00E187EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57813FF1E5A9C7C00E187EF;
+			remoteInfo = "Gym Addict";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D57814001E5A9C7C00E187EF /* Gym Addict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Addict.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57814031E5A9C7C00E187EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D57814051E5A9C7C00E187EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D57814081E5A9C7C00E187EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D578140A1E5A9C7C00E187EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D578140D1E5A9C7C00E187EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D578140F1E5A9C7C00E187EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57814141E5A9C7C00E187EF /* Gym AddictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym AddictTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57814181E5A9C7C00E187EF /* Gym_AddictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_AddictTests.swift; sourceTree = "<group>"; };
+		D578141A1E5A9C7C00E187EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D578141F1E5A9C7C00E187EF /* Gym AddictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym AddictUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57814231E5A9C7C00E187EF /* Gym_AddictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_AddictUITests.swift; sourceTree = "<group>"; };
+		D57814251E5A9C7C00E187EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57813FD1E5A9C7C00E187EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57814111E5A9C7C00E187EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D578141C1E5A9C7C00E187EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57813F71E5A9C7B00E187EF = {
+			isa = PBXGroup;
+			children = (
+				D57814021E5A9C7C00E187EF /* Gym Addict */,
+				D57814171E5A9C7C00E187EF /* Gym AddictTests */,
+				D57814221E5A9C7C00E187EF /* Gym AddictUITests */,
+				D57814011E5A9C7C00E187EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57814011E5A9C7C00E187EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57814001E5A9C7C00E187EF /* Gym Addict.app */,
+				D57814141E5A9C7C00E187EF /* Gym AddictTests.xctest */,
+				D578141F1E5A9C7C00E187EF /* Gym AddictUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57814021E5A9C7C00E187EF /* Gym Addict */ = {
+			isa = PBXGroup;
+			children = (
+				D57814031E5A9C7C00E187EF /* AppDelegate.swift */,
+				D57814051E5A9C7C00E187EF /* ViewController.swift */,
+				D57814071E5A9C7C00E187EF /* Main.storyboard */,
+				D578140A1E5A9C7C00E187EF /* Assets.xcassets */,
+				D578140C1E5A9C7C00E187EF /* LaunchScreen.storyboard */,
+				D578140F1E5A9C7C00E187EF /* Info.plist */,
+			);
+			path = "Gym Addict";
+			sourceTree = "<group>";
+		};
+		D57814171E5A9C7C00E187EF /* Gym AddictTests */ = {
+			isa = PBXGroup;
+			children = (
+				D57814181E5A9C7C00E187EF /* Gym_AddictTests.swift */,
+				D578141A1E5A9C7C00E187EF /* Info.plist */,
+			);
+			path = "Gym AddictTests";
+			sourceTree = "<group>";
+		};
+		D57814221E5A9C7C00E187EF /* Gym AddictUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D57814231E5A9C7C00E187EF /* Gym_AddictUITests.swift */,
+				D57814251E5A9C7C00E187EF /* Info.plist */,
+			);
+			path = "Gym AddictUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57813FF1E5A9C7C00E187EF /* Gym Addict */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57814281E5A9C7C00E187EF /* Build configuration list for PBXNativeTarget "Gym Addict" */;
+			buildPhases = (
+				D57813FC1E5A9C7C00E187EF /* Sources */,
+				D57813FD1E5A9C7C00E187EF /* Frameworks */,
+				D57813FE1E5A9C7C00E187EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gym Addict";
+			productName = "Gym Addict";
+			productReference = D57814001E5A9C7C00E187EF /* Gym Addict.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D57814131E5A9C7C00E187EF /* Gym AddictTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D578142B1E5A9C7C00E187EF /* Build configuration list for PBXNativeTarget "Gym AddictTests" */;
+			buildPhases = (
+				D57814101E5A9C7C00E187EF /* Sources */,
+				D57814111E5A9C7C00E187EF /* Frameworks */,
+				D57814121E5A9C7C00E187EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57814161E5A9C7C00E187EF /* PBXTargetDependency */,
+			);
+			name = "Gym AddictTests";
+			productName = "Gym AddictTests";
+			productReference = D57814141E5A9C7C00E187EF /* Gym AddictTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D578141E1E5A9C7C00E187EF /* Gym AddictUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D578142E1E5A9C7C00E187EF /* Build configuration list for PBXNativeTarget "Gym AddictUITests" */;
+			buildPhases = (
+				D578141B1E5A9C7C00E187EF /* Sources */,
+				D578141C1E5A9C7C00E187EF /* Frameworks */,
+				D578141D1E5A9C7C00E187EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57814211E5A9C7C00E187EF /* PBXTargetDependency */,
+			);
+			name = "Gym AddictUITests";
+			productName = "Gym AddictUITests";
+			productReference = D578141F1E5A9C7C00E187EF /* Gym AddictUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57813F81E5A9C7B00E187EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Brandyn Burgett";
+				TargetAttributes = {
+					D57813FF1E5A9C7C00E187EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D57814131E5A9C7C00E187EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D57813FF1E5A9C7C00E187EF;
+					};
+					D578141E1E5A9C7C00E187EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D57813FF1E5A9C7C00E187EF;
+					};
+				};
+			};
+			buildConfigurationList = D57813FB1E5A9C7B00E187EF /* Build configuration list for PBXProject "Gym Addict" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57813F71E5A9C7B00E187EF;
+			productRefGroup = D57814011E5A9C7C00E187EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57813FF1E5A9C7C00E187EF /* Gym Addict */,
+				D57814131E5A9C7C00E187EF /* Gym AddictTests */,
+				D578141E1E5A9C7C00E187EF /* Gym AddictUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57813FE1E5A9C7C00E187EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D578140E1E5A9C7C00E187EF /* LaunchScreen.storyboard in Resources */,
+				D578140B1E5A9C7C00E187EF /* Assets.xcassets in Resources */,
+				D57814091E5A9C7C00E187EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57814121E5A9C7C00E187EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D578141D1E5A9C7C00E187EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57813FC1E5A9C7C00E187EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57814061E5A9C7C00E187EF /* ViewController.swift in Sources */,
+				D57814041E5A9C7C00E187EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57814101E5A9C7C00E187EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57814191E5A9C7C00E187EF /* Gym_AddictTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D578141B1E5A9C7C00E187EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57814241E5A9C7C00E187EF /* Gym_AddictUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D57814161E5A9C7C00E187EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57813FF1E5A9C7C00E187EF /* Gym Addict */;
+			targetProxy = D57814151E5A9C7C00E187EF /* PBXContainerItemProxy */;
+		};
+		D57814211E5A9C7C00E187EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57813FF1E5A9C7C00E187EF /* Gym Addict */;
+			targetProxy = D57814201E5A9C7C00E187EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D57814071E5A9C7C00E187EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57814081E5A9C7C00E187EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D578140C1E5A9C7C00E187EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D578140D1E5A9C7C00E187EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D57814261E5A9C7C00E187EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D57814271E5A9C7C00E187EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57814291E5A9C7C00E187EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gym Addict/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlavorfulCode.Gym-Addict";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D578142A1E5A9C7C00E187EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gym Addict/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlavorfulCode.Gym-Addict";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D578142C1E5A9C7C00E187EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gym AddictTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlavorfulCode.Gym-AddictTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Addict.app/Gym Addict";
+			};
+			name = Debug;
+		};
+		D578142D1E5A9C7C00E187EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gym AddictTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlavorfulCode.Gym-AddictTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Addict.app/Gym Addict";
+			};
+			name = Release;
+		};
+		D578142F1E5A9C7C00E187EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Gym AddictUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlavorfulCode.Gym-AddictUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Gym Addict";
+			};
+			name = Debug;
+		};
+		D57814301E5A9C7C00E187EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Gym AddictUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlavorfulCode.Gym-AddictUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Gym Addict";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57813FB1E5A9C7B00E187EF /* Build configuration list for PBXProject "Gym Addict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57814261E5A9C7C00E187EF /* Debug */,
+				D57814271E5A9C7C00E187EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57814281E5A9C7C00E187EF /* Build configuration list for PBXNativeTarget "Gym Addict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57814291E5A9C7C00E187EF /* Debug */,
+				D578142A1E5A9C7C00E187EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D578142B1E5A9C7C00E187EF /* Build configuration list for PBXNativeTarget "Gym AddictTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D578142C1E5A9C7C00E187EF /* Debug */,
+				D578142D1E5A9C7C00E187EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D578142E1E5A9C7C00E187EF /* Build configuration list for PBXNativeTarget "Gym AddictUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D578142F1E5A9C7C00E187EF /* Debug */,
+				D57814301E5A9C7C00E187EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57813F81E5A9C7B00E187EF /* Project object */;
+}
